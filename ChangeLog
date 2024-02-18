@@ -1,0 +1,917 @@
+2013-02-21  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,includes/resets.php, battle.php: 
+	added block for multiattacks on one player
+	* UPDATE,install/db/update.sql:
+	updated database
+
+2013-02-20  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,tribearmor.php:
+	fixed item search
+
+2013-02-19  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,jeweller.php: 
+	fixed typo
+	* BUG,crafts.php:
+	fixed typo
+
+2013-02-18  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,lumberjack.php:
+	fixed amount energy
+
+2013-02-14  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/head.php: 
+	fixed check, second try
+	* BUG,includes/head.php:
+	fixed integer check
+
+2013-02-12  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,tribes.php:
+	new tribes description
+
+2013-02-11  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,crafts.php: 
+	fixed typo
+	* BUG,landfill.php: 
+	fixed typo
+	* BUG,install/resetall.php:
+	truncate table battlelogs too
+
+2013-02-08  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,account.php:
+	send log message to staff too
+
+2013-02-05  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/admin/bugreport.php: 
+	delete comments too
+	* BUG,stats.php: 
+	fixed bless info
+	* BUG,languages/pl/temple.php:
+	fixed typo
+
+2013-02-04  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,crafts.php, jeweller.php, outposts.php: 
+	fixed ring names
+	* BUG,class/player_class.php, jeweller.php: 
+	fixed rings names
+	* BUG,jeweller.php:
+	fixed making rings
+
+2013-02-03  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,jeweller.php: 
+	reduced amount of needed energy
+	* BUG,kopalnia.php:
+	fixed digging for minerals
+
+2013-02-01  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,staff.php:
+	fixed typo
+
+2013-01-31  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* BUG,install/resetall.php: 
+	fixed few bugs
+	* BUG,czary.php: 
+	fixed enchanting items
+	* BUG,includes/funkcje.php:
+	fixed monster damage
+
+2013-01-30  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,languages/pl/czary.php, czary.php:
+	fixed enchanting items
+
+2013-01-29  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,includes/head.php, templates/layout1/admin.tpl, templates/admin.tpl, admin.php: 
+	finished work on new rank
+	* UPDATE,templates/layout1/staff.tpl, templates/staff.tpl, staff.php: 
+	redesigned staff panel
+	* FEATURE,includes/admin/bugreport.php, admin.php, staff.php, languages/pl/staff.php, includes/ranks.php, bugtrack.php,
+	templates/layout1/staff.tpl, templates/staff.tpl:
+	added new rank, more options for staff
+
+2013-01-28  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,armor.php, bows.php, weapons.php: 
+	fixed link to steal items
+	* BUG,tribeadmin.php, tribearmor.php, tribeherbs.php, tribeminerals.php, tribeware.php: 
+	fixed giving items from tribes
+	* UPDATE,admin.php:
+	updated bugtrack
+
+2013-01-25  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,tribeminerals.php:
+	fixed bug with giving minerals from tribe
+
+2013-01-21  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,languages/pl/admin.php, admin.php: 
+	finished work on new version of bugtrack
+	* BUG,class/player_class.php:
+	fixed bonus from equipment
+
+2013-01-14  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,templates/layout1/comments.tpl, templates/layout1/account.tpl, templates/comments.tpl, templates/account.tpl,
+	account.php, languages/pl/account.php: 
+	start work on new version of bugtrack
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* UPDATE,admin.php: 
+	added new respone type to bugtrack
+	* UPDATE,templates/layout1/account.tpl, templates/account.tpl, languages/pl/account.php, account.php:
+	redesigned info about bug reporting
+
+2013-01-11  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/ap.tpl, templates/ap.tpl, ap.php:
+	added confirmation to select bonus
+
+2013-01-10  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,templates/layout1/battle.tpl, templates/battle.tpl, battle.php, includes/battle.php, templates/layout1/stats.tpl,
+	templates/stats.tpl, stats.php, view.php, templates/layout1/view.tpl, templates/view.tpl, class/player_class.php,
+	templates/layout1/guilds2.tpl, templates/guilds2.tpl, guilds2.php: 
+	added reputation to game
+	* UPDATE,includes/battle.php: 
+	changed amount of gained experience for fight
+	* UPDATE,install/db/update.sql:
+	updated database
+
+2013-01-09  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/turnfight.php: 
+	fixed lost mana during fight
+	* BUG,preset.php:
+	fixed player resets
+
+2013-01-08  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/bank.tpl, templates/bank.tpl, bank.php: 
+	raised needed energy for bank robbery
+	* BUG,view.php: 
+	fixed steal money from players
+	* BUG,tribes.php: 
+	fixed not using energy
+	* FEATURE,class/player_class.php, stats.php, templates/layout1/stats.tpl, templates/stats.tpl, includes/steal.php,
+	amarket.php, thieves.php, jail.php, view.php, tribes.php, bank.php: 
+	removed crime points
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* BUG,train.php: 
+	fixed training stats in school
+	* BUG,includes/battle.php:
+	fixed typo
+
+2013-01-07  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,class/player_class.php: 
+	add lost astral points on lost stat
+	* BUG,tribeminerals.php: 
+	fixed giving minerals from tribe
+	* BUG,mission.php: 
+	fixed bug with item price
+	* BUG,kowal.php:
+	fixed bug with experience for elite items
+
+2013-01-03  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,includes/turnfight.php, includes/funkcje.php, includes/battle.php: 
+	dropped random in fight
+	* BUG,languages/pl/admin.php: 
+	fixed typo
+	* BUG,preset.php: 
+	fixed bless reset
+	* BUG,thieves.php: 
+	fixed info
+	* BUG,templates/layout1/outposts.tpl, templates/outposts.tpl, outposts.php: 
+	fixed bonuses from skill
+	* BUG,tribes.php:
+	fixed typo
+
+2013-01-02  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/funkcje.php: 
+	fixed lost arrows
+	* BUG,includes/funkcje.php: 
+	fixed false info about critical hit
+	* BUG,includes/battle.php:
+	fixed notice
+
+2012-12-31  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,stats.php: 
+	fixed notice, second try
+	* BUG,battle.php: 
+	remove test code
+	* UPDATE,battle.php: 
+	more reduction of experience
+	* UPDATE,battle.php: 
+	reduced experience for fight with monsters
+	* BUG,stats.php, includes/battle.php:
+	fixed some notices
+
+2012-12-28  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/funkcje.php: 
+	fixed few bugs
+	* BUG,includes/functions.php: 
+	fixed drinking potions
+	* BUG,includes/turnfight.php:
+	fixed spell boost
+
+2012-12-27  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,tribes.php: 
+	fixed info about traps in tribe
+	* BUG,house.php: 
+	fixed restore mana
+	* BUG,outposts.php: 
+	fixed info about gained experience
+	* BUG,includes/functions.php:
+	fixed wearing items
+
+2012-12-26  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,bank.php:
+	fixed steal from bank
+
+2012-12-22  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/images/bank.png, templates/layout1/images/coins.png, templates/layout1/images/mithril.png:
+	updated icons
+
+2012-12-21  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/funkcje.php, includes/battle.php: 
+	fixed mana lost
+	* UPDATE,pmarket.php:
+	better search on market
+
+2012-12-19  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/header.tpl, templates/layout1/layout1.css, templates/header.tpl, css/light.css, css/lucass.css,
+	css/grey.css, css/greenforest.css, css/green.css, css/ender.css, css/classic.css, images/life.jpg, images/mana.jpg, images/energy.jpg: 
+	updated graph bars
+	* BUG,includes/turnfight.php: 
+	fixed some notices
+	* BUG,temple.php: 
+	fixed bless to carpentry
+	* UPDATE,crafts.php: 
+	changed crafts missions
+	* BUG,templates/layout1/lumberjack.tpl, templates/lumberjack.tpl, lumberjack.php:
+	fixed info about gained wood
+
+2012-12-18  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/turnfight.php: 
+	fixed hit location
+	* BUG,includes/funkcje.php: 
+	fixed notice
+	* BUG,includes/funkcje.php: 
+	removed test code
+	* UPDATE,includes/funkcje.php, includes/battle.php, includes/turnfight.php: 
+	changed bonus from staff
+	* UPDATE,includes/turnfight.php, includes/funkcje.php, includes/battle.php: 
+	changed check for dodge
+	* BUG,kowal.php: 
+	fixed gaining experience
+	* BUG,kowal.php: 
+	fixed cost of make elite items
+	* BUG,includes/funkcje.php: 
+	fixed lost mana
+	* BUG,includes/funkcje.php:
+	fixed hit location
+
+2012-12-17  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,class/player_class.php: 
+	fixed typo
+	* UPDATE,includes/functions.php: 
+	some code cleanup
+	* UPDATE,includes/battle.php, includes/funkcje.php, includes/turnfight.php: 
+	changed hit location count
+	* UPDATE,includes/battle.php: 
+	raise chance to block arrows
+	* BUG,maze.php: 
+	fixed escape from fight
+	* BUG,equip.php, smelter.php, temple.php: 
+	fixed notices
+	* BUG,train.php: 
+	fixed typo
+	* BUG,includes/funkcje.php: 
+	fixed typo
+	* BUG,train.php:
+	fixed typo
+
+2012-12-14  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,ap.php, templates/layout1/ap.tpl, templates/ap.tpl: 
+	added info about current bonus level
+	* UPDATE,includes/resets.php: 
+	raised mana for mages
+	* BUG,class/player_class.php, includes/resurect.php: 
+	fixed lost experience
+	* UPDATE,klasa.php: 
+	added info about mana for mages
+	* UPDATE,includes/head.php, includes/funkcje.php, rest.php, stats.php: 
+	raised amount of mana for mages
+	* BUG,class/player_class.php: 
+	fixed typo
+	* BUG,templates/layout1/lumbermill.tpl, templates/lumbermill.php, lumbermill.php: 
+	fixed info about gained skills
+	* BUG,includes/turnfight.php, includes/funkcje.php:
+	fixed bug with death after win fight
+
+2012-12-13  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,bank.php: 
+	fixed bank robbery
+	* BUG,includes/battle.php: 
+	fixed typo
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* UPDATE,rasa.php, klasa.php: 
+	added info about gained health
+	* UPDATE,class/player_class.php, includes/resurect.php, includes/head.php, hospital.php, gory.php, las.php: 
+	raised amount of health, changed cost of resurect
+	* UPDATE,thieves.php: 
+	reduced amount of crime points needed for missions
+	* UPDATE,jail.php: 
+	reduce experience from escape from jail
+	* BUG,includes/turnfight.php: 
+	fixed escape from fight with low health
+	* BUG,tribeadmin.php: 
+	block enter for people without tribe
+	* BUG,includes/astralsteal.php: 
+	fixed typo
+	* BUG,includes/turnfight.php, includes/funkcje.php:
+	fixed notices
+
+2012-12-12  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,quests/quest3.php: 
+	fixed typo
+	* BUG,languages/pl/account.php: 
+	fixed typo
+	* BUG,includes/funkcje.php: 
+	fixed notice
+	* BUG,languages/pl/admin.php, admin.php: 
+	fixed typo
+	* BUG,includes/monsters.php: 
+	fixed notice
+	* BUG,crafts.php: 
+	fixed skill name
+	* BUG,outpost.php: 
+	fixed gain experience for fight
+	* BUG,includes/head.php: 
+	fixed scaling avatars
+	* BUG,kowal.php:
+	fixed bonus to making helmets
+	* BUG,class/player_class.php, temple.php:
+	fixed bless
+
+2012-12-11  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,battle.php: 
+	fixed read players stats
+	* BUG,class/player_class.php: 
+	fixed bonus from bless
+	* BUG,quests/quest3.php: 
+	fixed typo
+	* BUG,includes/functions.php: 
+	fixed drink few potions
+	* BUG,jail.php: 
+	fixed gaining experience
+	* BUG,jeweller.php: 
+	fixed typo
+	* BUG,house.php: 
+	fixed rest in house
+	* BUG,quests/quest4.php, quests/quest2.php: 
+	fixed finishing quest
+	* BUG,mission.php: 
+	fixed typo
+	* UPDATE,stats.php: 
+	updated info about needed experience for stats
+	* UPDATE,class/player_class.php (Player): 
+	droped needed experience for stats
+	* BUG,install/resetall.php: 
+	fixed copy notes
+	* BUG,languages/pl/temple.php, train.php: 
+	fixed stat name
+	* BUG,includes/turnfight.php, includes/funkcje.php: 
+	fixed damage in fights with monsters
+	* BUG,battle.php: 
+	fixed exprience for monster in speed fight
+	* BUG,maze.php:
+	fixed finding items
+
+2012-12-10  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/battle.php: 
+	fixed typo
+	* BUG,aktywacja.php, register.php: 
+	fixed register account with graphic style
+	* BUG,includes/resets.php: 
+	fixed random event
+	* BUG,includes/funkcje.php: 
+	fixed autofill quiver
+	* BUG,stats.php: 
+	fixed typo
+	* BUG,includes/functions.php: 
+	fixed drinking potions
+	* FEATURE,class/player_class.php, alchemik.php, install/db/update.sql: 
+	added bonuses to alchemy
+	* BUG,includes/funkcje.php: 
+	fixed bug with count bonuses
+	* BUG,includes/functions.php: 
+	fixed wearing items
+	* BUG,quests/quest8.php, quests/quest3.php: 
+	fixed bug with finish quests
+	* BUG,includes/turnfight.php: 
+	fixed read player skill
+	* BUG,quests/quest10.php: 
+	fixed read player stats
+	* BUG,includes/funkcje.php: 
+	fixed defensive spell bonus
+	* BUG,ap.php: 
+	fixed back link
+	* BUG,landfill.php: 
+	fixed back link
+	* BUG,jail.php:
+	fixed escape from jail
+
+2012-12-09  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,explore.php: 
+	fixed bug with gaining item
+	* BUG,includes/monsters.php: 
+	fixed generating random encounters
+	* BUG,jail.php: 
+	fixed escape from jail
+	* BUG,includes/funkcje.php: 
+	fixed using arrows
+	* BUG,includes/battle.php: 
+	fixed count critical hit
+	* BUG,includes/battle.php: 
+	fixed typo
+	* BUG,maze.php: 
+	fixed find magic item
+	* BUG,explore.php: 
+	fixed bridge of death
+	* BUG,class/player_class.php: 
+	fixed typo
+	* BUG,includes/resets.php: 
+	fixed bug with count rings bonus
+	* BUG,preset.php: 
+	fixed amount of energy
+	* BUG,preset.php: 
+	fixed max energy
+	* BUG,includes/monsters.php: 
+	fixed typo
+	* BUG,class/quests_class.php: 
+	fixed gaining experience and gold from fight
+	* BUG,view.php: 
+	fixed typo
+	* BUG,explore.php, includes/turnfight.php: 
+	fixed escape from fight
+	* BUG,install/db/update.sql: 
+	fixed typo
+	* BUG,class/quests_class.php: 
+	fixed count gained experience
+	* BUG,includes/funkcje.php: 
+	fixed count critical chance
+	* BUG,explore.php, maze.php: 
+	fixed typo
+	* BUG,install/db/update.sql, includes/turnfight.php: 
+	fixed typo
+	* BUG,includes/turnfight.php: 
+	fixed few bugs
+	* BUG,ap.php: 
+	added block when player dont choice race and class
+	* BUG,includes/head.php: 
+	fixed show avatar in graphic mode
+	* BUG,admin.php: 
+	fixed typo
+	* UPDATE,templates/layout1/header.tpl, templates/header.tpl, view.php, team.php:
+	temporary disabled teams
+
+2012-11-28  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,class/team_class.php:
+	continue work on teams
+
+2012-11-27  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/team.tpl, templates/team.tpl, team.php: 
+	added short info about teams
+	* UPDATE,templates/layout1/proposals.tpl, templates/proposals.tpl, admin.php, proposals.php: 
+	updated monsters proposals
+	* FEATURE,team.php: 
+	added option to kick member from team
+	* FEATURE,log.php, team.php, view.php:
+	added invitations to teams
+
+2012-11-26  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,languages/pl/head1.php, languages/pl/view.php, includes/head.php, class/player_class.php, 
+	templates/layout1/header.tpl, templates/header.tpl, templates/team.tpl, team.php: 
+	start work on teams
+	* UPDATE,view.php: 
+	dont show link if player is invited
+	* BUG,includes/head.php: 
+	fixed avatar settings
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* UPDATE,class/player_class.php, view.php, log.php:
+	updated invitations system
+
+2012-11-23  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,class/player_class.php, includes/battle.php, includes/funkcje.php, includes/turnfight.php, core.php, equip.php:
+	finished work on pets in battles
+
+2012-11-22  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,class/player_class.php, equip.php, core.php, templates/layout1/equip.tpl, templates/equip.tpl: 
+	start work on pets in battles
+	* FEATURE,templates/account.tpl, includes/head.php, account.php: 
+	added option to enable/disable show avatar
+	* UPDATE,includes/head.php, includes/avatars.php:
+	better scale avatars
+
+2012-11-21  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,templates/header.tpl, includes/head.php: 
+	added player avatar to text style
+	* FEATURE,languages/pl/account.php, includes/head.php, templates/layout1/header.tpl, templates/header.tpl: 
+	added energy bar
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* FEATURE,languages/pl/register.php, templates/register.tpl, register.php, aktywacja.php, main.css:
+	added option to select game style
+
+2012-11-20  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,tribes.php:
+	finished work on new thief actions
+
+2012-11-19  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* FEATURE,tribes.php, templates/layout1/tribes.tpl, templates/tribes.tpl: 
+	start work on new thief actions
+	* FEATURE,includes/resets.php: 
+	added agents payment
+	* UPDATE,preset.php: 
+	updated player reset
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* FEATURE,templates/layout1/tribeadmin.tpl, templates/tribeadmin.tpl, tribeadmin.php:
+	added option to buy traps and agents to clan
+
+2012-11-16  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* FEATURE,class/player_class.php: 
+	added general bonuses
+	* FEATURE,includes/battle.php, includes/funkcje.php, includes/turnfight.php, includes/steal.php, class/player_class.php,
+	bank.php, tribes.php, view.php: 
+	added thieves bonuses
+	* FEATURE,includes/battle.php, includes/funkcje.php, includes/turnfight.php:
+	added rage bonus
+
+2012-11-15  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/battle.php, includes/funkcje.php, includes/turnfight.php: 
+	fixed some bonuses
+	* FEATURE,class/player_class.php, includes/battle.php, includes/funkcje.php, includes/turnfight.php, battle.php: 
+	added bonuses for warriors and barbarians
+	* FEATURE,class/player_class.php, includes/funkcje.php, includes/turnfight.php, battle.php, czary.php:
+	added bonuses for mages
+
+2012-11-14  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,mines.php: 
+	fixed bonuses
+	* FEATURE,class/player_class.php, farm.php, mines.php, kopalnia.php, kowal.php, lumbermill.php, jeweller.php, lumberjack.php,
+	smelter.php, core.php: 
+	continue work on bonuses from AP
+	* BUG,includes/head.php:
+	fixed mana bar
+
+2012-11-13  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,templates/layout1/stats.tpl, templates/layout1/ap.tpl, templates/stats.tpl, templates/ap.tpl, stats.php, ap.php,
+	class/player_class.php:
+	continue work on bonuses from AP
+	* BUG,templates/layout1/bows.tpl, templates/bows.tpl, bows.php:
+	fixed location description
+
+2012-11-12  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,install/db/update.sql, class/player_class.php, templates/layout1/stats.tpl, templates/stats.tpl: 
+	start work on bonuses from AP
+	* UPDATE,install/db/update.sql: 
+	updated monsters stats
+	* UPDATE,includes/tribefight.php (if): 
+	updated tribe fights
+	* UPDATE,includes/revent.php: 
+	updated fight
+	* BUG,includes/monsters.php:
+	remove unused code
+
+2012-11-09  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,mission.php: 
+	updated missions
+	* UPDATE,outpost.php: 
+	updated warriors missions
+	* UPDATE,crafts.php:
+	update crafts missions
+
+2012-11-08  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,view.php: 
+	added option to consider player
+	* UPDATE,templates/layout1/memberlist.tpl, templates/memberlist.tpl, memberlist.php: 
+	updated member list
+	* BUG,travel.php: 
+	remove testing code
+	* BUG,includes/monsters.php: 
+	fixed bug with monster resistances
+	* UPDATE,includes/monsters.php, includes/turnfight.php, mission.php, travel.php: 
+	update random monster generator
+	* UPDATE,includes/monsters.php, includes/funkcje.php, includes/turnfight.php, explore.php, maze.php:
+	update monster encounter
+
+2012-11-07  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/turnfight.php: 
+	fixed gaining experience
+	* UPDATE,battle.php: 
+	updated player level
+	* BUG,includes/funkcje.php, includes/turnfight.php: 
+	fixed few bugs
+	* BUG,includes/turnfight.php: 
+	fixed few bugs
+	* UPDATE,templates/layout1/battle.tpl, templates/battle.tpl: 
+	updated to new monsters
+	* UPDATE,battle.php: 
+	updated to new monsters
+	* UPDATE,install/db/update.sql: 
+	update database
+	* BUG,includes/funkcje.php: 
+	fixed monster damage
+	* BUG,includes/funkcje.php:
+	fixed info about lost item
+
+2012-11-06  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,includes/turnfight.php: 
+	updated turn fight with monsters
+	* BUG,includes/funkcje.php:
+	fixed cost in mana for offensive spells
+
+2012-11-05  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,languages/pl/funkcje.php, includes/funkcje.php: 
+	updated fast fight with monsters
+	* BUG,includes/battle.php: 
+	fixed spell mana cost
+	* UPDATE,includes/battle.php:
+	small code update
+
+2012-10-31  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,includes/battle.php: 
+	fixed bug with info about lost stats
+	* BUG,class/player_class.php: 
+	fixed few bugs
+	* BUG,includes/battle.php: 
+	fixed few bugs
+	* BUG,class/player_class.php: 
+	fixed lost mana on dying
+	* UPDATE,czary.php:
+	updated spellbook
+
+2012-10-30  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,wieza.php: 
+	updated buying spells
+	* BUG,class/player_class.php: 
+	fixed lost stats
+	* UPDATE,class/player_class.php, includes/functions.php, includes/funkcje.php, includes/battle.php, battle.php: 
+	finished work on PvP fights
+	* BUG,includes/resurect.php: 
+	fixed resurection
+	* UPDATE,install/db/update.sql: 
+	updated database
+	* UPDATE,class/player_class.php:
+	updated dying and skill names
+
+2012-10-29  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,includes/battle.php, includes/funkcje.php: 
+	continue work on PvP fights
+	* UPDATE,class/player_class.php: 
+	changed antidote info
+	* BUG,class/player_class.php:
+	fixed info about lost stats
+
+2012-10-26  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/battle.tpl, templates/battle.tpl, includes/battle.php, battle.php, includes/funkcje.php:
+	start work on rewriting PvP fights
+
+2012-10-25  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,class/player_class.php: 
+	added function to count lost experience
+	* BUG,includes/resurect.php: 
+	clear experience
+	* UPDATE,includes/resurect.php: 
+	updated ressurection
+	* UPDATE,guilds.php, guilds2.php, thieves.php:
+	updated monuments
+
+2012-10-24  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,class/quests_class.php, quests/quest1.php, quests/quest2.php, quests/quest3.php, quests/quest4.php, quests/quest5.php, 
+	quests/quest6.php, quests/quest7.php, quests/quest8.php, quests/quest9.php, quests/quest10.php: 
+	updated quests
+	* UPDATE,includes/steal.php: 
+	updated steal from shops
+	* UPDATE,includes/astralsteal.php: 
+	updated astral stealing
+	* UPDATE,tribes.php:
+	updated thieves actions
+
+2012-10-23  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,travel.php: 
+	updated escape from fight
+	* UPDATE,jail.php: 
+	updated escape from jail
+	* UPDATE,bank.php: 
+	updated bank robbery
+	* BUG,view.php: 
+	fixed stealing gold
+	* UPDATE,includes/revent.php: 
+	updated random events
+	* UPDATE,explore.php: 
+	updated escape from fight
+	* UPDATE,templates/layout1/view.tpl, templates/view.tpl, view.php: 
+	updated thieves actions
+	* UPDATE,templates/layout1/outposts.tpl, templates/outposts.tpl, outposts.php:
+	raised bonuses from leadership
+
+2012-10-22  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,languages/pl/core.php, core.php: 
+	updated pets breeding
+	* FEATURE,templates/layout1/equip.tpl, templates/equip.tpl, equip.php: 
+	added option to release selected pets
+	* UPDATE,outposts.php, languages/pl/outposts.php:
+	updated outposts
+
+2012-10-19  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,outposts.php, languages/pl/outposts.php: 
+	start work on removing language file
+	* UPDATE,templates/layout1/jeweller.tpl, templates/jeweller.tpl, jeweller.php:
+	updated jeweller
+
+2012-10-18  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,languages/pl/jeweller.php, jeweller.php: 
+	remove language file
+	* UPDATE,templates/layout1/kowal.tpl, templates/kowal.tpl, kowal.php: 
+	updated smith
+	* BUG,lumbermill.php:
+	fixed experience for elite items
+
+2012-10-17  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,languages/pl/kowal.php, kowal.php: 
+	remove language file
+	* UPDATE,class/player_class.php: 
+	better info about gained levels
+	* UPDATE,languages/pl/smelter.php, smelter.php: 
+	updated smelter
+	* UPDATE,languages/pl/gory.php, gory.php: 
+	updated mountains
+	* UPDATE,languages/pl/kopalnia.php, kopalnia.php: 
+	updated mines in mountains
+	* UPDATE,languages/pl/mines.php, mines.php:
+	updated mines in city
+
+2012-10-16  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,templates/layout1/lumbermill.tpl, templates/lumbermill.tpl, languages/pl/lumbermill.php, lumbermill.php: 
+	updated lumbermill
+	* UPDATE,farm.php: 
+	clear blessing to stat
+	* UPDATE,las.php:
+	updated forrest
+
+2012-10-15  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,includes/resurect.php, hospital.php: 
+	updated ressurection
+	* UPDATE,languages/pl/hospital.php, hospital.php: 
+	updated hospital
+	* UPDATE,languages/pl/lumberjack.php, lumberjack.php: 
+	updated lumberjack
+	* UPDATE,templates/layout1/alchemist.tpl, templates/alchemist.tpl, alchemik.php, languages/pl/alchemik.php: 
+	update alchemy lab
+	* UPDATE,landfill.php: 
+	added experience to job
+	* UPDATE,farm.php: 
+	changed stat
+	* BUG,stats.php: 
+	fixed info about experience
+	* UPDATE,farm.php: 
+	updated farm
+	* BUG,class/player_class.php: 
+	fixed some bugs
+	* UPDATE,install/db/update.sql:
+	drop starting energy
+
+2012-10-12  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,farm.php, languages/pl/farm.php: 
+	remove language file
+	* UPDATE,landfill.php, languages/pl/landfill.php: 
+	update job
+	* UPDATE,js/train.js, train.php:
+	changed training cost
+
+2012-10-11  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* UPDATE,rest.php, languages/pl/rest.php: 
+	update rest
+	* UPDATE,preset.php, languages/pl/preset.php: 
+	update player reset
+	* UPDATE,stats.php: 
+	better round experience
+	* BUG,install/db/update.sql: 
+	fixed default skills
+	* UPDATE,templates/layout1/train.tpl, templates/train.tpl, train.php, js/train.js, languages/pl/train.php: 
+	update training stats
+	* BUG,class/player_class.php: 
+	fixed gaining experience
+	* BUG,stats.php:
+	remove unused code
+
+2012-10-10  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* BUG,class/player_class.php: 
+	fixed bonus to condition
+	* UPDATE,templates/layout1/klasa.tpl, templates/klasa.tpl, klasa.php, languages/pl/klasa.php: 
+	updated class selection
+	* UPDATE,class/player_class.php: 
+	updated bonuses to skills
+	* BUG,rasa.php: 
+	fixed typo
+	* BUG,stats.php: 
+	fixed max mana info
+	* UPDATE,templates/layout1/rasa.tpl, templates/rasa.tpl, rasa.php, languages/pl/rasa.php: 
+	updated race selection
+	* UPDATE,install/db/update.sql:
+	update database
+
+2012-10-09  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,class/player_class.php: 
+	added function to check experience
+	* BUG,includes/head.php: 
+	fixed graph bars
+	* UPDATE,templates/layout1/stats.tpl, templates/stats.tpl, stats.php: 
+	updated to new skills/stats
+	* BUG,class/player_class.php:
+	fixed read/write player stats/skills
+
+2012-10-08  Bartek thindil Jasicki  <thindil@vallheru.net>
+
+	* FEATURE,templates/layout1/header.tpl, templates/header.tpl, class/player_class.php, includes/head.php, install/db/update.sql: 
+	start work on redesign stats and skills
+	* FEATURE,templates/warehouse.tpl, templates/layout1/warehouse.tpl, warehouse.php, languages/pl/warehouse.php, js/warehouse.js:
+	added gold limit to warehouse, small redesign
